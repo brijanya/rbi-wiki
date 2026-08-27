@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: rbi-wiki.brijanya
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Plus Jakarta Sans
+      body: Lora
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#F9F6F0"
+        lightgray: "#E6E1D6"
+        gray: "#8C877D"
+        darkgray: "#2D2C2A"
+        dark: "#1C1C1A"
+        secondary: "#2A5A4A"
+        tertiary: "#A95C3C"
+        highlight: "rgba(42, 90, 74, 0.07)"
+        textHighlight: "#F6DFB8"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#141614"
+        lightgray: "#252825"
+        gray: "#6A6D69"
+        darkgray: "#DFE2DC"
+        dark: "#EFF2EC"
+        secondary: "#6FAD98"
+        tertiary: "#D88D6A"
+        highlight: "rgba(111, 173, 152, 0.12)"
+        textHighlight: "#4E3F2E"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true

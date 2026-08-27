@@ -1,3 +1,19 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* Remove collapse dropdown chevron and disable click toggle for Explorer */
+.explorer button.desktop-explorer {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.explorer button.desktop-explorer .fold {
+  display: none !important;
+}
+
+/* Remove collapse dropdown chevron and disable click toggle for Table of Contents */
+.toc button.toc-header {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.toc button.toc-header .fold {
+  display: none !important;
+}

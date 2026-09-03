@@ -5,4 +5,5 @@ This wiki holds all the resources related to the RBI Grade B (General) Exam that
 
 For mock test I am using **Oliveboard** because the questions are just a bit harder and better in quality which by the way is a completely personal opinion.
 
-Click [[Exam Pattern and Sylabus|here]] to view the exam pattern and syllabus.
+Click [[Exam Pattern.|here]] to view the exam pattern and syllabus.
+

@@ -5,6 +5,7 @@
   pointer-events: none !important;
   cursor: default !important;
 }
+
 .explorer button.desktop-explorer .fold {
   display: none !important;
 }
@@ -14,6 +15,34 @@
   pointer-events: none !important;
   cursor: default !important;
 }
+
 .toc button.toc-header .fold {
   display: none !important;
+}
+
+.badge-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.badge-success {
+  background-color: #28a745;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.badge-error {
+  background-color: #dc3545;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
 }
